@@ -121,7 +121,7 @@ public class DetailsFragment extends Fragment implements View.OnClickListener {
                             percent = (correct*100)/total;
                             detailScore.setText(percent+" %");
                         }else{
-                            //Document not exist
+                            Toast.makeText(getContext(), "Take a test first", Toast.LENGTH_SHORT).show();
                         }
                     }
                 }
