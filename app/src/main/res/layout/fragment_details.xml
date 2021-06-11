@@ -5,17 +5,20 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".DetailsFragment"
-    android:background="@color/colorPrimaryDark">
+    android:background="@color/colorPrimaryDark"
+   >
 
     <ImageView
         android:id="@+id/details_image"
         android:layout_width="0dp"
         android:layout_height="256dp"
         android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/placeholder_image"
+        android:layout_margin="2dp"
         tools:srcCompat="@drawable/placeholder_image" />
 
     <TextView
