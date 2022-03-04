@@ -29,6 +29,5 @@ public class QuizListViewModel extends ViewModel implements FirebaseRepository.O
 
     @Override
     public void onError(Exception e) {
-
     }
 }
